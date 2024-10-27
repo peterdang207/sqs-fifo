@@ -1,0 +1,30 @@
+{
+    "name": "peterdang/sqs-fifo",
+    "description": "Add a Laraver queue driver for AWS SQS FIFO",
+    "type": "library",
+    "require": {
+        "php": ">=8.0.2",
+        "aws/aws-sdk-php": "~3.0",
+        "illuminate/queue": ">=9.0",
+        "illuminate/support": ">=9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Peterdang\\SqsFifo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Dang",
+            "email": "danghuuthach2@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./peterdang/sqs-fifo"
+        }
+    ]
+}
