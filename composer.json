@@ -33,7 +33,7 @@
                 "PeterDang\\SqsFifo\\SqsFifoServiceProvider"
             ],
             "aliases": {
-                "SqsFifo": "PeterDang\\SqsFifo\\Facades\\Summable"
+                "SqsFifo": "Peterdang\\SqsFifo\\Facades\\Summable"
             }
         }
     }
