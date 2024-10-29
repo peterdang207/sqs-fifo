@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PeterDang\\SqsFifo\\SqsFifoServiceProvider"
+                "Peterdang\\SqsFifo\\SqsFifoServiceProvider"
             ],
             "aliases": {
                 "SqsFifo": "Peterdang\\SqsFifo\\Facades\\Summable"
