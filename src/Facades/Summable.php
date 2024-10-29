@@ -4,7 +4,7 @@ namespace Peterdang\SqsFifo\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class SummableFacade extends Facade
+class Summable extends Facade
 {
     protected static function getFacadeAccessor(): string
     {

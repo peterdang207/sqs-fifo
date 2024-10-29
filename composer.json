@@ -26,5 +26,15 @@
             "type": "path",
             "url": "./peterdang/sqs-fifo"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PeterDang\\SqsFifo\\SqsFifoServiceProvider"
+            ],
+            "aliases": {
+                "SqsFifo": "PeterDang\\SqsFifo\\Facades\\Summable"
+            }
+        }
+    }
 }
